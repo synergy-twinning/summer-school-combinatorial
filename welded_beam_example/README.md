@@ -1,6 +1,6 @@
 # SYNERGY SUMMER SCHOOL 
 
-The Jupyter notebook presents the optimization of a real-world problem (Welded Beam Design) with a multiobjective optimization algorithm (NSGA2)
+The Jupyter notebook presents the optimization of a real-world problem (Welded Beam Design) with a multiobjective optimization algorithm (NSGA-II).
 
 # Getting Started
 These instructions will get you a copy of the notebook up and running on your local machine for testing purposes. 
@@ -13,11 +13,11 @@ Documentation: http://conda.pydata.org/docs
 # Installing
 1. Download source files from git: 
 ```
-git clone https://github.com/synergy-project/summer-school 
+git clone https://github.com/synergy-twinning/summer-school/
 ```
 2. Go to folder of source files: 
 ```
-cd summer-school-master
+cd ./summer-school/welded_beam_example
 ```
 3. Create Conda environment:
 ```   
