@@ -17,7 +17,7 @@ git clone https://github.com/synergy-twinning/summer-school/
 ```
 2. Go to folder of source files: 
 ```
-cd ./summer-school/welded_beam_example
+cd summer-school
 ```
 3. Create Conda environment:
 ```   
@@ -63,7 +63,7 @@ conda env remove -n synergy-summer-school
 3. Remove Conda
 
 # Running on cloud without installing
-To run without installing, go to: https://mybinder.org/v2/gh/synergy-project/summer-school/master?filepath=SynergySummerSchool.ipynb
+To run without installing, go to: https://mybinder.org/v2/gh/synergy-twinning/summer-school/master?filepath=SynergySummerSchool.ipynb
 
 Note that this is a publicly available service whose resources are limited. Consequently, it becomes unavailable when requests exceed the available resources.
 Therefore, the link should be accessed a few times until the resources become available and the environment is set up.
