@@ -1,4 +1,4 @@
-# SYNERGY SUMMER SCHOOL: WELDED BEAM DESIGN 
+# SYNERGY SUMMER SCHOOL: THE WELDED BEAM DESIGN PROBLEM
 
 The Jupyter notebook presents the optimization of a real-world problem (Welded Beam Design) with a multiobjective optimization algorithm (NSGA-II).
 
