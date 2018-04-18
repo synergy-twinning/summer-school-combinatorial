@@ -1,4 +1,4 @@
-# SYNERGY SUMMER SCHOOL: THE WELDED BEAM DESIGN PROBLEM
+# SYNERGY Summer School: The Welded Beam Design Problem
 
 The Jupyter notebook presents the optimization of a real-world problem (Welded Beam Design) with a multiobjective optimization algorithm (NSGA-II).
 
@@ -34,7 +34,7 @@ Linux:
 source activate synergy-summer-school 
 ```
 
-# Compiling external library
+# Compiling External Library
 If the precompiled libraries (EvaluationFunctions.so or EvaluationFunctions.dll) are not compatible with the local system, they should be recompiled.
 To this end, execute:
 
@@ -62,7 +62,7 @@ conda env remove -n synergy-summer-school
 ```
 3. Remove Conda
 
-# Running on cloud without installing
+# Running on Cloud Without Installing
 To run without installing, go to: https://mybinder.org/v2/gh/synergy-twinning/summer-school/master?filepath=SynergySummerSchool.ipynb
 
 Note that this is a publicly available service whose resources are limited. Consequently, it becomes unavailable when requests exceed the available resources.
