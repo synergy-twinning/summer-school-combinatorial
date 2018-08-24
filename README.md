@@ -1,6 +1,6 @@
-# SYNERGY Summer School: The Welded Beam Design Problem
+# SYNERGY Summer School: Scheduling Problem
 
-The Jupyter notebook presents the optimization of a real-world problem (Welded Beam Design) with a multiobjective optimization algorithm (NSGA-II).
+The Jupyter notebook presents the optimization of a real-world problem (Task scheduling) with a multiobjective optimization algorithm (NSGA-II).
 
 # Getting Started
 These instructions will get you a copy of the notebook up and running on your local machine for testing purposes. 
@@ -13,25 +13,25 @@ Documentation: http://conda.pydata.org/docs
 # Installing
 1. Download source files from git: 
 ```
-git clone https://github.com/synergy-twinning/summer-school/
+git clone https://github.com/synergy-twinning/summer-school-combinatorial/
 ```
 2. Go to folder of source files: 
 ```
-cd summer-school
+cd summer-school-combinatorial
 ```
 3. Create Conda environment:
 ```   
-conda env create -n synergy-summer-school -f environment.yml
+conda env create -n synergy-summer-school-combinatorial -f environment.yml
 ```
 4. Activate environment (to be done each time you open a new terminal window):
 
 Windows:
 ```
-activate synergy-summer-school
+activate synergy-summer-school-combinatorial
 ```
 Linux:
 ```
-source activate synergy-summer-school 
+source activate synergy-summer-school-combinatorial 
 ```
 
 # Compiling External Library
@@ -58,12 +58,12 @@ jupyter notebook --notebook-dir=.
 1. Remove folder with source files
 2. Uninstall Conda environment:
 ```
-conda env remove -n synergy-summer-school
+conda env remove -n synergy-summer-school-combinatorial
 ```
 3. Remove Conda
 
 # Running on Cloud Without Installing
-To run without installing, go to: https://mybinder.org/v2/gh/synergy-twinning/summer-school/master?filepath=SynergySummerSchool.ipynb
+To run without installing, go to: https://mybinder.org/v2/gh/synergy-twinning/summer-school-combinatorial/master?filepath=SynergySummerSchoolCombinatorial.ipynb
 
 Note that this is a publicly available service whose resources are limited. Consequently, it becomes unavailable when requests exceed the available resources.
 Therefore, the link should be accessed a few times until the resources become available and the environment is set up.
